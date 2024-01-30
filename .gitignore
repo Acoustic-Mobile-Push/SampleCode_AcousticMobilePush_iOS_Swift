@@ -21,4 +21,3 @@ swiftlint_report.xml
 **/derived
 .DS_Store
 .DS_STORE
-MceConfig.json
