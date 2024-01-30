@@ -6,7 +6,7 @@ SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application tha
 
 ### Prerequisites
 
-You need to have recent carthage version install on your Mac OS. Current version is 0.36.0.[Please refer to carthage website for the details](https://github.com/Carthage/Carthage).
+You need to have recent carthage version install on your Mac OS. Current version is 0.36.0. [Please refer to carthage website for the details](https://github.com/Carthage/Carthage).
 
 For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-campaign/docs/add-the-ios-sdk-to-your-app)
 
