@@ -2,16 +2,15 @@
 
 SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/Acoustic-Mobile-Push/iOS) with any iOS Application.
 
-
-## Getting Started for Cocoapods
+## Getting Started for Swift Package
 
 ### Prerequisites
 
-You need to have recent cocoapods version install on your Mac OS. Current version is 1.4.0. Please refer to cocoapods website for the details.
+You just need xcode.
 
 For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-campaign/docs/add-the-ios-sdk-to-your-app)
 
-## Updating podfile
+## Updating xcode project
 
 Open Podfile in a text editor of your choice and note the following lines in the Podfile.
 ```
@@ -89,19 +88,10 @@ Clone the sample app code from github location
 git clone https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift.git
 ```
 
-Open terminal window and go to the sample app location
-```
-cd SampleCode_AcousticMobilePush_iOS_Swift
-```
-
-Run the following command
-```
-pod install
-```
-
 Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](https://developer.goacoustic.com/acoustic-campaign/docs/build-mobile-app-messages-with-the-sample-app)
+
+This project also uses Swift Package from https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP, https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP and https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP which installs debug version of AcousticMobilePush swift packages.
 
 # License
 
 License files can be read [here](https://github.com/acoustic-analytics/Tealeaf/tree/master/Licenses)
-
