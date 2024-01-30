@@ -4,53 +4,57 @@ platform :ios, '12.1'
 use_frameworks!
 
 target 'Sample' do
-  # If you want to use release binaries of Tealeaf please change the following line
-  # pod 'TealeafDebug'
+  # If you want to use release binaries of AcousticMobilePush please change the following line
+  # pod 'AcousticMobilePushDebug'
+  # pod 'AcousticMobilePushNotificationDebug'
   # and use
-  # pod 'Tealeaf'
+  # pod 'AcousticMobilePush'
+  # pod 'AcousticMobilePushNotification'
   pod 'AcousticMobilePushDebug'
   pod 'AcousticMobilePushNotificationDebug'
 end
 
  target 'Notification Service' do
-   # If you want to use release binaries of Tealeaf please change the following line
-   # pod 'TealeafDebug'
+   # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushNotificationDebug'
    # and use
-   # pod 'Tealeaf'
+   # pod 'AcousticMobilePushNotification'
    pod 'AcousticMobilePushNotificationDebug'
  end
 
  target 'Watch Extension' do
- platform :watchos, '4.0'
-   # If you want to use release binaries of Tealeaf please change the following line
-   # pod 'TealeafDebug'
+   platform :watchos, '4.0'
+   # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushWatchDebug'
    # and use
-   # pod 'Tealeaf'
+   # pod 'AcousticMobilePushWatch'
    pod 'AcousticMobilePushWatchDebug'
  end
 
  target 'Manual Sample' do
-   # If you want to use release binaries of Tealeaf please change the following line
-   # pod 'TealeafDebug'
+   # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushDebug'
+   # pod 'AcousticMobilePushNotificationDebug'
    # and use
-   # pod 'Tealeaf'
+   # pod 'AcousticMobilePush'
+   # pod 'AcousticMobilePushNotification'
    pod 'AcousticMobilePushDebug'
    pod 'AcousticMobilePushNotificationDebug'
  end
 
  target 'Manual Notification Service' do
-   # If you want to use release binaries of Tealeaf please change the following line
-   # pod 'TealeafDebug'
+   # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushNotificationDebug'
    # and use
-   # pod 'Tealeaf'
+   # pod 'AcousticMobilePushNotification'
    pod 'AcousticMobilePushNotificationDebug'
  end
 
  target 'Manual Watch Extension' do
- platform :watchos, '4.0'
-   # If you want to use release binaries of Tealeaf please change the following line
-   # pod 'TealeafDebug'
+   platform :watchos, '4.0'
+   # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushWatchDebug'
    # and use
-   # pod 'Tealeaf'
+   # pod 'AcousticMobilePushWatch'
    pod 'AcousticMobilePushWatchDebug'
  end
