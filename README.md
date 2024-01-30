@@ -33,8 +33,9 @@ You will notice that by default the sample application uses `Debug` version of l
 Note that you can use only one of  `Release` or `Debug`. Do not use both at the same time.
 
 Now you need to install the carthage by running the following command.
-
-`carthage update --use-xcframeworks`
+```
+carthage update --use-xcframeworks
+```
 
 Above carthage command should complete with no errors.
 
@@ -53,7 +54,7 @@ cd SampleCode_AcousticMobilePush_iOS_Swift
 
 Run the following command
 ```
-pod install
+carthage update --use-xcframeworks
 ```
 
 Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](https://developer.goacoustic.com/acoustic-campaign/docs/build-mobile-app-messages-with-the-sample-app)
