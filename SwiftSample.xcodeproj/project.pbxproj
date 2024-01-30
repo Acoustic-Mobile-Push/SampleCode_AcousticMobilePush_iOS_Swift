@@ -12,6 +12,13 @@
 		34718F612953845C0030DDEE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34718F5E295384500030DDEE /* UserNotifications.framework */; };
 		34718F622953845C0030DDEE /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34718F5D295384500030DDEE /* UserNotificationsUI.framework */; };
 		6D2761DB2B361A080086BD97 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CC1CA2347C1A200206E37 /* HandOffController.m */; };
+		6D73CEC92B68B7520021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CEC72B68B7520021CE49 /* AcousticMobilePushNotification.xcframework */; };
+		6D73CECA2B68B7520021CE49 /* AcousticMobilePush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CEC82B68B7520021CE49 /* AcousticMobilePush.xcframework */; };
+		6D73CED12B68BAAE0021CE49 /* AcousticMobilePushWatch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CECE2B68BA520021CE49 /* AcousticMobilePushWatch.xcframework */; };
+		6D73CED22B68BBDE0021CE49 /* AcousticMobilePush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CEC82B68B7520021CE49 /* AcousticMobilePush.xcframework */; };
+		6D73CED32B68BBF80021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CEC72B68B7520021CE49 /* AcousticMobilePushNotification.xcframework */; };
+		6D73CED52B68BC160021CE49 /* AcousticMobilePushWatch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CECE2B68BA520021CE49 /* AcousticMobilePushWatch.xcframework */; };
+		6D73CED72B68BD8C0021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D73CEC72B68B7520021CE49 /* AcousticMobilePushNotification.xcframework */; };
 		C30252821BE168D600CA5D5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252811BE168D600CA5D5D /* main.swift */; };
 		C30252851BE16B3F00CA5D5D /* MailDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252841BE16B3F00CA5D5D /* MailDelegate.swift */; };
 		C311C05E23FF1A9600C456C4 /* MCEInboxDefaultTemplateDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F70951C654EB000070DB6 /* MCEInboxDefaultTemplateDisplay.m */; };
@@ -320,6 +327,9 @@
 /* Begin PBXFileReference section */
 		34718F5D295384500030DDEE /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/iOSSupport/System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = DEVELOPER_DIR; };
 		34718F5E295384500030DDEE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		6D73CEC72B68B7520021CE49 /* AcousticMobilePushNotification.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushNotification.xcframework; path = Carthage/Build/AcousticMobilePushNotification.xcframework; sourceTree = "<group>"; };
+		6D73CEC82B68B7520021CE49 /* AcousticMobilePush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePush.xcframework; path = Carthage/Build/AcousticMobilePush.xcframework; sourceTree = "<group>"; };
+		6D73CECE2B68BA520021CE49 /* AcousticMobilePushWatch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushWatch.xcframework; path = Carthage/Build/AcousticMobilePushWatch.xcframework; sourceTree = "<group>"; };
 		C30252811BE168D600CA5D5D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C30252841BE16B3F00CA5D5D /* MailDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailDelegate.swift; sourceTree = "<group>"; };
 		C311C0B023FF1A9600C456C4 /* Manual Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manual Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -471,6 +481,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CED32B68BBF80021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */,
+				6D73CED22B68BBDE0021CE49 /* AcousticMobilePush.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +513,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CED52B68BC160021CE49 /* AcousticMobilePushWatch.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +521,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CED12B68BAAE0021CE49 /* AcousticMobilePushWatch.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +536,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CED72B68BD8C0021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +553,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEC92B68B7520021CE49 /* AcousticMobilePushNotification.xcframework in Frameworks */,
+				6D73CECA2B68B7520021CE49 /* AcousticMobilePush.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,6 +757,9 @@
 		C35FB4031A64670000CEF4DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D73CECE2B68BA520021CE49 /* AcousticMobilePushWatch.xcframework */,
+				6D73CEC82B68B7520021CE49 /* AcousticMobilePush.xcframework */,
+				6D73CEC72B68B7520021CE49 /* AcousticMobilePushNotification.xcframework */,
 				34718F5E295384500030DDEE /* UserNotifications.framework */,
 				34718F5D295384500030DDEE /* UserNotificationsUI.framework */,
 				C3E6C72322FDEE1500529AE3 /* AcousticMobilePushWatch.xcframework */,
