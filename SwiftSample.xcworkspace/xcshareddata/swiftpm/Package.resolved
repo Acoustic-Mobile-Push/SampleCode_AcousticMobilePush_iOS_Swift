@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "acousticmobilepushdebug-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP",
+      "state" : {
+        "revision" : "280acbc4a47f7a558310f6f30cf71ab01ab0d279",
+        "version" : "3.8.18"
+      }
+    },
+    {
+      "identity" : "acousticmobilepushnotificationdebug-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP",
+      "state" : {
+        "revision" : "92423eb8514a29fde060025c827057aca015c164",
+        "version" : "3.8.18"
+      }
+    },
+    {
+      "identity" : "acousticmobilepushwatchdebug-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP",
+      "state" : {
+        "revision" : "ab684776fcae9df4ba68aaa11d3fe2de7287385d",
+        "version" : "3.8.18"
+      }
+    }
+  ],
+  "version" : 2
+}

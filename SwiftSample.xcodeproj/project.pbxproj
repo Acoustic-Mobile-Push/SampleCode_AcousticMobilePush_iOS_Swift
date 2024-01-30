@@ -12,6 +12,14 @@
 		34718F612953845C0030DDEE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34718F5E295384500030DDEE /* UserNotifications.framework */; };
 		34718F622953845C0030DDEE /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34718F5D295384500030DDEE /* UserNotificationsUI.framework */; };
 		6D2761DB2B361A080086BD97 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CC1CA2347C1A200206E37 /* HandOffController.m */; };
+		6D73CEDC2B68CE720021CE49 /* AcousticMobilePush in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEDB2B68CE720021CE49 /* AcousticMobilePush */; };
+		6D73CEDF2B68CE990021CE49 /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEDE2B68CE990021CE49 /* AcousticMobilePushNotification */; };
+		6D73CEE22B68CEBC0021CE49 /* AcousticMobilePushWatch in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEE12B68CEBC0021CE49 /* AcousticMobilePushWatch */; };
+		6D73CEE42B68CFC40021CE49 /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEE32B68CFC40021CE49 /* AcousticMobilePushNotification */; };
+		6D73CEE62B68CFDD0021CE49 /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEE52B68CFDD0021CE49 /* AcousticMobilePushNotification */; };
+		6D73CEE82B68CFE60021CE49 /* AcousticMobilePush in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEE72B68CFE60021CE49 /* AcousticMobilePush */; };
+		6D73CEEA2B68CFF70021CE49 /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEE92B68CFF70021CE49 /* AcousticMobilePushNotification */; };
+		6D73CEEC2B68D0130021CE49 /* AcousticMobilePushWatch in Frameworks */ = {isa = PBXBuildFile; productRef = 6D73CEEB2B68D0130021CE49 /* AcousticMobilePushWatch */; };
 		C30252821BE168D600CA5D5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252811BE168D600CA5D5D /* main.swift */; };
 		C30252851BE16B3F00CA5D5D /* MailDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252841BE16B3F00CA5D5D /* MailDelegate.swift */; };
 		C311C05E23FF1A9600C456C4 /* MCEInboxDefaultTemplateDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F70951C654EB000070DB6 /* MCEInboxDefaultTemplateDisplay.m */; };
@@ -471,6 +479,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEEA2B68CFF70021CE49 /* AcousticMobilePushNotification in Frameworks */,
+				6D73CEE82B68CFE60021CE49 /* AcousticMobilePush in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEE62B68CFDD0021CE49 /* AcousticMobilePushNotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +512,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEEC2B68D0130021CE49 /* AcousticMobilePushWatch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +520,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEE22B68CEBC0021CE49 /* AcousticMobilePushWatch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +535,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEE42B68CFC40021CE49 /* AcousticMobilePushNotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +552,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D73CEDF2B68CE990021CE49 /* AcousticMobilePushNotification in Frameworks */,
+				6D73CEDC2B68CE720021CE49 /* AcousticMobilePush in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,6 +971,10 @@
 				C31B0E8D23FF353700173DA9 /* PBXTargetDependency */,
 			);
 			name = "Manual Sample";
+			packageProductDependencies = (
+				6D73CEE72B68CFE60021CE49 /* AcousticMobilePush */,
+				6D73CEE92B68CFF70021CE49 /* AcousticMobilePushNotification */,
+			);
 			productName = Silverpop;
 			productReference = C311C0B023FF1A9600C456C4 /* Manual Sample.app */;
 			productType = "com.apple.product-type.application";
@@ -972,6 +992,9 @@
 			dependencies = (
 			);
 			name = "Manual Notification Service";
+			packageProductDependencies = (
+				6D73CEE52B68CFDD0021CE49 /* AcousticMobilePushNotification */,
+			);
 			productName = SwiftSampleNotificationService;
 			productReference = C311C0BE23FF1AA600C456C4 /* Manual Notification Service.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -1024,6 +1047,9 @@
 			dependencies = (
 			);
 			name = "Manual Watch Extension";
+			packageProductDependencies = (
+				6D73CEEB2B68D0130021CE49 /* AcousticMobilePushWatch */,
+			);
 			productName = "WatchSample Extension";
 			productReference = C311C0EE23FF1ABF00C456C4 /* Manual Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -1059,6 +1085,9 @@
 			dependencies = (
 			);
 			name = "Watch Extension";
+			packageProductDependencies = (
+				6D73CEE12B68CEBC0021CE49 /* AcousticMobilePushWatch */,
+			);
 			productName = "WatchSample Extension";
 			productReference = C35A58E023479FA800C3E859 /* Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -1076,6 +1105,9 @@
 			dependencies = (
 			);
 			name = "Notification Service";
+			packageProductDependencies = (
+				6D73CEE32B68CFC40021CE49 /* AcousticMobilePushNotification */,
+			);
 			productName = SwiftSampleNotificationService;
 			productReference = C361A9951D3576E800D4EA9B /* Notification Service.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -1115,6 +1147,10 @@
 				C35A58F023479FA900C3E859 /* PBXTargetDependency */,
 			);
 			name = Sample;
+			packageProductDependencies = (
+				6D73CEDB2B68CE720021CE49 /* AcousticMobilePush */,
+				6D73CEDE2B68CE990021CE49 /* AcousticMobilePushNotification */,
+			);
 			productName = Silverpop;
 			productReference = C3D01E5B1A607F7E00C9A66C /* SwiftSample.app */;
 			productType = "com.apple.product-type.application";
@@ -1189,6 +1225,11 @@
 				Base,
 			);
 			mainGroup = C3D01E521A607F7E00C9A66C;
+			packageReferences = (
+				6D73CEDA2B68CE720021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushDebug-SP" */,
+				6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */,
+				6D73CEE02B68CEBC0021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */,
+			);
 			productRefGroup = C3D01E5C1A607F7E00C9A66C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2647,6 +2688,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D73CEDA2B68CE720021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushDebug-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.18;
+			};
+		};
+		6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.18;
+			};
+		};
+		6D73CEE02B68CEBC0021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D73CEDB2B68CE720021CE49 /* AcousticMobilePush */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDA2B68CE720021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushDebug-SP" */;
+			productName = AcousticMobilePush;
+		};
+		6D73CEDE2B68CE990021CE49 /* AcousticMobilePushNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
+			productName = AcousticMobilePushNotification;
+		};
+		6D73CEE12B68CEBC0021CE49 /* AcousticMobilePushWatch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEE02B68CEBC0021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */;
+			productName = AcousticMobilePushWatch;
+		};
+		6D73CEE32B68CFC40021CE49 /* AcousticMobilePushNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
+			productName = AcousticMobilePushNotification;
+		};
+		6D73CEE52B68CFDD0021CE49 /* AcousticMobilePushNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
+			productName = AcousticMobilePushNotification;
+		};
+		6D73CEE72B68CFE60021CE49 /* AcousticMobilePush */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDA2B68CE720021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushDebug-SP" */;
+			productName = AcousticMobilePush;
+		};
+		6D73CEE92B68CFF70021CE49 /* AcousticMobilePushNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEDD2B68CE990021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
+			productName = AcousticMobilePushNotification;
+		};
+		6D73CEEB2B68D0130021CE49 /* AcousticMobilePushWatch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D73CEE02B68CEBC0021CE49 /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */;
+			productName = AcousticMobilePushWatch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3D01E531A607F7E00C9A66C /* Project object */;
 }
