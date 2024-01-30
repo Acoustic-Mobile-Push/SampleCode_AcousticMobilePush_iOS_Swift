@@ -34,7 +34,7 @@ Note that you can use only one of  `Release` or `Debug`. Do not use both at the 
 
 Now you need to install the carthage by running the following command.
 
-`carthage update --platform iOS`
+`carthage update --use-xcframeworks`
 
 Above carthage command should complete with no errors.
 
