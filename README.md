@@ -12,73 +12,26 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 
 ## Updating xcode project
 
-Open Podfile in a text editor of your choice and note the following lines in the Podfile.
-```
-source 'https://github.com/Acoustic-Mobile-Push/iOS.git'
-source 'https://github.com/CocoaPods/Specs.git'
-```
+### You will need to open the project and add the Package Dependencies
+![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_package_dependencies.png?raw=true)
 
-Also note the platform in the Podfile iOS 12.1
-```
-platform :ios, '12.1'
-```
+1. Select `PROJECT`
+2. Select `Package Dependencies`
+3. And Swift Package by selecting the `+` button
 
-Note that use_frameworks is uncommented for xcframeworks.
-```
-use_frameworks!
-```
+### Find swift package
+![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_from_github.png?raw=true)
 
-In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's release version
-```
-pod 'AcousticMobilePush'
-pod 'AcousticMobilePushNotification'
-```
+- Add url of swift package
 
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatch'
-```
+### Select target to add the swift package
+![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_select_target.png?raw=true)
 
-In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
-```
-pod 'AcousticMobilePushDebug'
-pod 'AcousticMobilePushNotificationDebug'
-```
+### Displays swift package linked in target selected in prior step
+![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_target.png?raw=true)
 
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatchDebug'
-```
-
-You will notice that by default the sample application uses `pod 'AcousticMobilePushDebug'`,`pod 'AcousticMobilePushDebug'` and `pod 'AcousticMobilePushNotificationDebug'`
-
-Note that you can use only one of 
-```
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushNotificationDebug'
- ```
- 
- or 
- ```
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushNotificationDebug'
- ```
- 
-Do not use both at the same time.
-
-Now you need to install the pods by running one of the following commands.
-```
-pod install
-```
-
-or to update
-```
-pod update
-```
-
-Above pod command (install or update) should complete with no errors. If you do see errors run the same command with `--verbose` option and share the error log with us.
+### Project will display `Swift Packages` available for use
+![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_project.png?raw=true)
 
 ## Run Sample Application
 
