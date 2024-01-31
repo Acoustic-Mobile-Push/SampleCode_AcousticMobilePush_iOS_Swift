@@ -62,9 +62,9 @@ Note that you can use only one of
  
  or 
  ```
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushNotificationDebug'
+ pod 'AcousticMobilePush'
+ pod 'AcousticMobilePush'
+ pod 'AcousticMobilePushNotification'
  ```
  
 Do not use both at the same time.
