@@ -23,6 +23,14 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 ![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_from_github.png?raw=true)
 
 - Add url of swift package
+- For debug use:
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP
+- For release use:
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePush-SP
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotification-SP
+  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatch-SP 
 
 ### Select target to add the swift package
 ![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_select_target.png?raw=true)
