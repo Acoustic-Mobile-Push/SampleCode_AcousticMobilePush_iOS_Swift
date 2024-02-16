@@ -6,12 +6,9 @@ use_frameworks!
 target 'Sample' do
   # If you want to use release binaries of AcousticMobilePush please change the following line
   # pod 'AcousticMobilePushDebug'
-  # pod 'AcousticMobilePushNotificationDebug'
   # and use
   # pod 'AcousticMobilePush'
-  # pod 'AcousticMobilePushNotification'
   pod 'AcousticMobilePushDebug'
-  pod 'AcousticMobilePushNotificationDebug'
 end
 
  target 'Notification Service' do
@@ -34,12 +31,9 @@ end
  target 'Manual Sample' do
    # If you want to use release binaries of AcousticMobilePush please change the following line
    # pod 'AcousticMobilePushDebug'
-   # pod 'AcousticMobilePushNotificationDebug'
    # and use
    # pod 'AcousticMobilePush'
-   # pod 'AcousticMobilePushNotification'
    pod 'AcousticMobilePushDebug'
-   pod 'AcousticMobilePushNotificationDebug'
  end
 
  target 'Manual Notification Service' do
