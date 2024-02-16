@@ -96,8 +96,8 @@
 		C311C0E323FF1ABF00C456C4 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A59022347AEC900C3E859 /* EventsController.swift */; };
 		C311C0E723FF1ABF00C456C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35A58EB23479FA900C3E859 /* Assets.xcassets */; };
 		C311C0F023FF1B0B00C456C4 /* Manual Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C311C0D823FF1AB900C456C4 /* Manual Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C311C0F123FF1B1900C456C4 /* Manual Notification Service.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C311C0BE23FF1AA600C456C4 /* Manual Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C311C0F223FF1B1900C456C4 /* Manual Carousel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C311C0C923FF1AAE00C456C4 /* Manual Carousel.appex */; platformFilter = maccatalyst; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C311C0F123FF1B1900C456C4 /* Manual Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C311C0BE23FF1AA600C456C4 /* Manual Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C311C0F223FF1B1900C456C4 /* Manual Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C311C0C923FF1AAE00C456C4 /* Manual Carousel.appex */; platformFilter = maccatalyst; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C311C0F623FF1DC200C456C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311C0F523FF1DC200C456C4 /* AppDelegate.swift */; };
 		C311C0FB23FF1E2E00C456C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311C0FA23FF1E2E00C456C4 /* AppDelegate.swift */; };
 		C311C0FD23FF1F0700C456C4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311C0FC23FF1F0700C456C4 /* Config.swift */; };
@@ -116,7 +116,7 @@
 		C32CB37623A175C1008A2D14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CB37323A175C1008A2D14 /* SceneDelegate.swift */; };
 		C32CB37D23A177C1008A2D14 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CB37C23A177C1008A2D14 /* UIColor+Extension.swift */; };
 		C33571811B3B6461003E0A7A /* MCEInboxActionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C335716F1B3B6461003E0A7A /* MCEInboxActionPlugin.m */; };
-		C335D79A24181975007BEEC0 /* Manual Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C311C0EE23FF1ABF00C456C4 /* Manual Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C335D79A24181975007BEEC0 /* Manual Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C311C0EE23FF1ABF00C456C4 /* Manual Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C336C1091F3E089400C33D40 /* ExamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C336C1061F3E089400C33D40 /* ExamplePlugin.m */; };
 		C336C10A1F3E089400C33D40 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C336C1081F3E089400C33D40 /* ExampleViewController.m */; };
 		C3466A042347BC2F00D7EF02 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
@@ -124,10 +124,10 @@
 		C34975EC22F225560048C956 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34975EB22F225560048C956 /* NavigationVC.swift */; };
 		C34C41102268FF7F009DE60C /* CustomActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C410F2268FF7F009DE60C /* CustomActionVC.swift */; };
 		C34E052B1B740D4500376671 /* MCEInboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34E052A1B740D4500376671 /* MCEInboxTableViewController.m */; };
-		C35134CB1DEF58F700261B85 /* Notification Service.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C361A9951D3576E800D4EA9B /* Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C35134CB1DEF58F700261B85 /* Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C361A9951D3576E800D4EA9B /* Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C35A58D823479FA600C3E859 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35A58D623479FA500C3E859 /* Interface.storyboard */; };
 		C35A58DA23479FA800C3E859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35A58D923479FA800C3E859 /* Assets.xcassets */; };
-		C35A58E123479FA800C3E859 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C35A58E023479FA800C3E859 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C35A58E123479FA800C3E859 /* Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C35A58E023479FA800C3E859 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C35A58E623479FA800C3E859 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A58E523479FA800C3E859 /* InterfaceController.swift */; };
 		C35A58E823479FA800C3E859 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A58E723479FA800C3E859 /* ExtensionDelegate.swift */; };
 		C35A58EA23479FA800C3E859 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A58E923479FA800C3E859 /* NotificationController.swift */; };
@@ -159,7 +159,7 @@
 		C361A9981D3576E900D4EA9B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361A9971D3576E900D4EA9B /* NotificationService.swift */; };
 		C3624A5C203F64DA003B324C /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3624A5B203F64DA003B324C /* NotificationViewController.m */; };
 		C3624A5F203F64DA003B324C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3624A5D203F64DA003B324C /* MainInterface.storyboard */; };
-		C3624A63203F64DA003B324C /* Carousel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3624A54203F64DA003B324C /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3624A63203F64DA003B324C /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3624A54203F64DA003B324C /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C3624A69203F6500003B324C /* CarouselAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3624A68203F6500003B324C /* CarouselAction.m */; };
 		C367FDC11BE2733300AD32AE /* CellStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C367FDC01BE2733300AD32AE /* CellStatusTableViewController.swift */; };
 		C3778E861D53CD2300811B72 /* TextInputActionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3778E851D53CD2300811B72 /* TextInputActionPlugin.m */; };
@@ -255,16 +255,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C311C0A623FF1A9600C456C4 /* Embed App Extensions */ = {
+		C311C0A623FF1A9600C456C4 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C311C0F123FF1B1900C456C4 /* Manual Notification Service.appex in Embed App Extensions */,
-				C311C0F223FF1B1900C456C4 /* Manual Carousel.appex in Embed App Extensions */,
+				C311C0F123FF1B1900C456C4 /* Manual Notification Service.appex in Embed Foundation Extensions */,
+				C311C0F223FF1B1900C456C4 /* Manual Carousel.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C311C0A923FF1A9600C456C4 /* Embed Watch Content */ = {
@@ -278,38 +278,38 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C311C0D223FF1AB900C456C4 /* Embed App Extensions */ = {
+		C311C0D223FF1AB900C456C4 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C335D79A24181975007BEEC0 /* Manual Watch Extension.appex in Embed App Extensions */,
+				C335D79A24181975007BEEC0 /* Manual Watch Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C35134CE1DEF58F700261B85 /* Embed App Extensions */ = {
+		C35134CE1DEF58F700261B85 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C3624A63203F64DA003B324C /* Carousel.appex in Embed App Extensions */,
-				C35134CB1DEF58F700261B85 /* Notification Service.appex in Embed App Extensions */,
+				C3624A63203F64DA003B324C /* Carousel.appex in Embed Foundation Extensions */,
+				C35134CB1DEF58F700261B85 /* Notification Service.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C35A58F523479FA900C3E859 /* Embed App Extensions */ = {
+		C35A58F523479FA900C3E859 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C35A58E123479FA800C3E859 /* Watch Extension.appex in Embed App Extensions */,
+				C35A58E123479FA800C3E859 /* Watch Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C3E232411FAA47FC00DCD58D /* Embed Watch Content */ = {
@@ -960,7 +960,7 @@
 				C311C05D23FF1A9600C456C4 /* Sources */,
 				C311C08C23FF1A9600C456C4 /* Frameworks */,
 				C311C09223FF1A9600C456C4 /* Resources */,
-				C311C0A623FF1A9600C456C4 /* Embed App Extensions */,
+				C311C0A623FF1A9600C456C4 /* Embed Foundation Extensions */,
 				C311C0A923FF1A9600C456C4 /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -1021,7 +1021,7 @@
 			buildConfigurationList = C311C0D523FF1AB900C456C4 /* Build configuration list for PBXNativeTarget "Manual Watch" */;
 			buildPhases = (
 				C311C0CE23FF1AB900C456C4 /* Resources */,
-				C311C0D223FF1AB900C456C4 /* Embed App Extensions */,
+				C311C0D223FF1AB900C456C4 /* Embed Foundation Extensions */,
 				C311C0D423FF1AB900C456C4 /* Frameworks */,
 			);
 			buildRules = (
@@ -1059,7 +1059,7 @@
 			buildConfigurationList = C35A58F623479FA900C3E859 /* Build configuration list for PBXNativeTarget "Watch" */;
 			buildPhases = (
 				C35A58D223479FA500C3E859 /* Resources */,
-				C35A58F523479FA900C3E859 /* Embed App Extensions */,
+				C35A58F523479FA900C3E859 /* Embed Foundation Extensions */,
 				C35A58FB2347A15700C3E859 /* Frameworks */,
 			);
 			buildRules = (
@@ -1136,7 +1136,7 @@
 				C3D01E571A607F7E00C9A66C /* Sources */,
 				C3D01E581A607F7E00C9A66C /* Frameworks */,
 				C3D01E591A607F7E00C9A66C /* Resources */,
-				C35134CE1DEF58F700261B85 /* Embed App Extensions */,
+				C35134CE1DEF58F700261B85 /* Embed Foundation Extensions */,
 				C3E232411FAA47FC00DCD58D /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -1161,8 +1161,9 @@
 		C3D01E531A607F7E00C9A66C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = Acoustic;
 				TargetAttributes = {
 					C35A58D323479FA500C3E859 = {
@@ -2402,6 +2403,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2412,6 +2414,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2459,6 +2462,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2469,6 +2473,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
