@@ -1126,6 +1126,7 @@
 				C3D01E591A607F7E00C9A66C /* Resources */,
 				C35134CE1DEF58F700261B85 /* Embed App Extensions */,
 				C3E232411FAA47FC00DCD58D /* Embed Watch Content */,
+				29969FE82B8FF5A0008A4DEB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1347,6 +1348,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29969FE82B8FF5A0008A4DEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePush.xcframework",
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushNotification.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePush.xcframework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushNotification.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C311C05D23FF1A9600C456C4 /* Sources */ = {
