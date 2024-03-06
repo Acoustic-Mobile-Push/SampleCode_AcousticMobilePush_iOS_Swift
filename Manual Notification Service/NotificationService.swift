@@ -9,6 +9,7 @@
  */
 
 import UserNotifications
+import AcousticMobilePush
 import AcousticMobilePushNotification
 
 class NotificationService: UNNotificationServiceExtension {
