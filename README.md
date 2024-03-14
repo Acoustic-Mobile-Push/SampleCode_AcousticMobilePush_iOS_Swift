@@ -1,6 +1,6 @@
 # SampleCode_AcousticMobilePush_iOS_Swift
 
-SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/Acoustic-Mobile-Push/iOS) with any iOS Application.
+SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS) with any iOS Application.
 
 
 ## Getting Started for Cocoapods
@@ -15,7 +15,6 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 
 Open Podfile in a text editor of your choice and note the following lines in the Podfile.
 ```
-source 'https://github.com/Acoustic-Mobile-Push/iOS.git'
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 
@@ -86,7 +85,7 @@ Above pod command (install or update) should complete with no errors. If you do 
 Clone the sample app code from github location
 
 ```
-git clone https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift.git
+git clone https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift.git
 ```
 
 Open terminal window and go to the sample app location
@@ -103,5 +102,5 @@ Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](
 
 # License
 
-License files can be read [here](https://github.com/acoustic-analytics/Tealeaf/tree/master/Licenses)
+License files can be read [here](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/blob/master/license/license.txt)
 
