@@ -1,6 +1,6 @@
 # SampleCode_AcousticMobilePush_iOS_Swift
 
-SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/Acoustic-Mobile-Push/iOS) with any iOS Application.
+SampleCode_AcousticMobilePush_iOS_Swift is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS) with any iOS Application.
 
 ## Getting Started for Swift Package
 
@@ -13,46 +13,46 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 ## Updating xcode project
 
 ### You will need to open the project and add the Package Dependencies
-![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_package_dependencies.png?raw=true)
+![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_package_dependencies.png?raw=true)
 
 1. Select `PROJECT`
 2. Select `Package Dependencies`
 3. And Swift Package by selecting the `+` button
 
 ### Find swift package
-![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_from_github.png?raw=true)
+![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_from_github.png?raw=true)
 
 - Add url of swift package
 - For debug use:
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP
+  - https://github.com/go-acoustic/AcousticMobilePushDebug-SP
+  - https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP
+  - https://github.com/go-acoustic/AcousticMobilePushWatchDebug-SP
 - For release use:
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePush-SP
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotification-SP
-  - https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatch-SP 
+  - https://github.com/go-acoustic/AcousticMobilePush-SP
+  - https://github.com/go-acoustic/AcousticMobilePushNotification-SP
+  - https://github.com/go-acoustic/AcousticMobilePushWatch-SP 
 
 ### Select target to add the swift package
-![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_select_target.png?raw=true)
+![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_select_target.png?raw=true)
 
 ### Displays swift package linked in target selected in prior step
-![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_target.png?raw=true)
+![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_target.png?raw=true)
 
 ### Project will display `Swift Packages` available for use
-![](https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_project.png?raw=true)
+![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_add_to_project.png?raw=true)
 
 ## Run Sample Application
 
 Clone the sample app code from github location
 
 ```
-git clone https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_Swift.git
+git clone https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift.git
 ```
 
 Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](https://developer.goacoustic.com/acoustic-campaign/docs/build-mobile-app-messages-with-the-sample-app)
 
-This project also uses Swift Package from https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP, https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP and https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP which installs debug version of AcousticMobilePush swift packages.
+This project also uses Swift Package from https://github.com/go-acoustic/AcousticMobilePushDebug-SP, https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP and https://github.com/go-acoustic/AcousticMobilePushWatchDebug-SP which installs debug version of AcousticMobilePush swift packages.
 
 # License
 
-License files can be read [here](https://github.com/acoustic-analytics/Tealeaf/tree/master/Licenses)
+License files can be read [here](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/blob/master/license/license.txt)
