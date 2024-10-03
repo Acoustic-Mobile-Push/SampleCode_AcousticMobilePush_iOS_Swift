@@ -1,3 +1,2 @@
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushWatchDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushDebug.json" >= 3.9.33
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.9.33

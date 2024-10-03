@@ -16,16 +16,14 @@ Open Cartfile in a text editor of your choice and note the following lines:
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's release version
 ```
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePush.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushNotification.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushWatch.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePush.json" >= 3.9.33
+binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushNotification.json" >= 3.9.33
 ```
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
 ```
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushWatchDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushDebug.json" >= 3.9.33
+binary "https://raw.githubusercontent.com/go-acoustic/Acoustic-Mobile-Push-iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.9.33
 ```
 
 You will notice that by default the sample application uses `Debug` version of libraries.
