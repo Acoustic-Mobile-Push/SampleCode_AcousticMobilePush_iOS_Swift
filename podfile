@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '12.1'
+platform :ios, '13.0'
 use_frameworks!
 
 target 'Sample' do
@@ -19,15 +19,6 @@ end
    pod 'AcousticMobilePushNotificationDebug'
  end
 
- target 'Watch Extension' do
-   platform :watchos, '4.0'
-   # If you want to use release binaries of AcousticMobilePush please change the following line
-   # pod 'AcousticMobilePushWatchDebug'
-   # and use
-   # pod 'AcousticMobilePushWatch'
-   pod 'AcousticMobilePushWatchDebug'
- end
-
  target 'Manual Sample' do
    # If you want to use release binaries of AcousticMobilePush please change the following line
    # pod 'AcousticMobilePushDebug'
@@ -38,17 +29,11 @@ end
 
  target 'Manual Notification Service' do
    # If you want to use release binaries of AcousticMobilePush please change the following line
+   # pod 'AcousticMobilePushDebug'
    # pod 'AcousticMobilePushNotificationDebug'
    # and use
+   # pod 'AcousticMobilePush'
    # pod 'AcousticMobilePushNotification'
+   pod 'AcousticMobilePushDebug'
    pod 'AcousticMobilePushNotificationDebug'
- end
-
- target 'Manual Watch Extension' do
-   platform :watchos, '4.0'
-   # If you want to use release binaries of AcousticMobilePush please change the following line
-   # pod 'AcousticMobilePushWatchDebug'
-   # and use
-   # pod 'AcousticMobilePushWatch'
-   pod 'AcousticMobilePushWatchDebug'
  end
