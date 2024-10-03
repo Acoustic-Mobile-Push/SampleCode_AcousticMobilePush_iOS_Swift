@@ -26,11 +26,9 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 - For debug use:
   - https://github.com/go-acoustic/AcousticMobilePushDebug-SP
   - https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP
-  - https://github.com/go-acoustic/AcousticMobilePushWatchDebug-SP
 - For release use:
   - https://github.com/go-acoustic/AcousticMobilePush-SP
   - https://github.com/go-acoustic/AcousticMobilePushNotification-SP
-  - https://github.com/go-acoustic/AcousticMobilePushWatch-SP 
 
 ### Select target to add the swift package
 ![](https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift/blob/main_swift_package/readMeImages/xcode_swift_packages_select_target.png?raw=true)
@@ -51,7 +49,7 @@ git clone https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_Swift
 
 Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](https://developer.goacoustic.com/acoustic-campaign/docs/build-mobile-app-messages-with-the-sample-app)
 
-This project also uses Swift Package from https://github.com/go-acoustic/AcousticMobilePushDebug-SP, https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP and https://github.com/go-acoustic/AcousticMobilePushWatchDebug-SP which installs debug version of AcousticMobilePush swift packages.
+This project also uses Swift Package from https://github.com/go-acoustic/AcousticMobilePushDebug-SP and https://github.com/go-acoustic/AcousticMobilePushNotificationDebug-SP which installs debug version of AcousticMobilePush swift packages.
 
 # License
 
