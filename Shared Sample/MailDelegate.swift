@@ -50,7 +50,7 @@ class MailDelegate : NSObject, MFMailComposeViewControllerDelegate, MCEActionPro
             {
                 let alert = UIAlertController(title: "Cannot send mail", message: "Please verify that you have a mail account setup.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: .default))
-                UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true)
+                UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController?.present(alert, animated: true)
                 return
             }
             
@@ -68,7 +68,7 @@ class MailDelegate : NSObject, MFMailComposeViewControllerDelegate, MCEActionPro
                     self.mailController!.setToRecipients([recipient!])
                     self.mailController!.setMessageBody(body!, isHTML: false)
                     
-                    UIApplication.shared.keyWindow?.rootViewController?.present(self.mailController!, animated: true, completion: { () -> Void in
+                    UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController?.present(self.mailController!, animated: true, completion: { () -> Void in
                     })
                     return
                 }
@@ -76,7 +76,7 @@ class MailDelegate : NSObject, MFMailComposeViewControllerDelegate, MCEActionPro
             
             let alert = UIAlertController(title: "Cannot send mail", message: "Incorrect package contents.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
-            UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true)
+            UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController?.present(alert, animated: true)
         }
     }
     
