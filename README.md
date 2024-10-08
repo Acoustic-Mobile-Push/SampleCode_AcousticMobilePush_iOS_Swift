@@ -18,9 +18,9 @@ Open Podfile in a text editor of your choice and note the following lines in the
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 
-Also note the platform in the Podfile iOS 12.1
+Also note the platform in the Podfile iOS 13.0
 ```
-platform :ios, '12.1'
+platform :ios, '13.0'
 ```
 
 Note that use_frameworks is uncommented for xcframeworks.
@@ -34,20 +34,10 @@ pod 'AcousticMobilePush'
 pod 'AcousticMobilePushNotification'
 ```
 
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatch'
-```
-
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
 ```
 pod 'AcousticMobilePushDebug'
 pod 'AcousticMobilePushNotificationDebug'
-```
-
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatchDebug'
 ```
 
 You will notice that by default the sample application uses `pod 'AcousticMobilePushDebug'`,`pod 'AcousticMobilePushDebug'` and `pod 'AcousticMobilePushNotificationDebug'`
@@ -55,13 +45,11 @@ You will notice that by default the sample application uses `pod 'AcousticMobile
 Note that you can use only one of 
 ```
  pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
  pod 'AcousticMobilePushNotificationDebug'
  ```
  
  or 
  ```
- pod 'AcousticMobilePush'
  pod 'AcousticMobilePush'
  pod 'AcousticMobilePushNotification'
  ```

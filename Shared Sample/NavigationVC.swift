@@ -12,7 +12,7 @@ class NavigationVC: UINavigationController {
     }
     
     func updateColor() {
-        UIApplication.shared.keyWindow?.tintColor = .tint
+        UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.tintColor = .tint
     }
     
     override func viewWillAppear(_ animated: Bool) {
